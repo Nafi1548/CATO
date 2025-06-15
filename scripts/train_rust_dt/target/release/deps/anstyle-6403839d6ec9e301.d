@@ -1,0 +1,12 @@
+/home/nafi/CATO/cato/scripts/train_rust_dt/target/release/deps/libanstyle-6403839d6ec9e301.rmeta: /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/lib.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/macros.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/color.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/effect.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/reset.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/style.rs
+
+/home/nafi/CATO/cato/scripts/train_rust_dt/target/release/deps/libanstyle-6403839d6ec9e301.rlib: /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/lib.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/macros.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/color.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/effect.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/reset.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/style.rs
+
+/home/nafi/CATO/cato/scripts/train_rust_dt/target/release/deps/anstyle-6403839d6ec9e301.d: /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/lib.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/macros.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/color.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/effect.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/reset.rs /home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/style.rs
+
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/lib.rs:
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/macros.rs:
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/color.rs:
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/effect.rs:
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/reset.rs:
+/home/nafi/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-1.0.1/src/style.rs:

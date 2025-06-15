@@ -1,0 +1,8 @@
+#!/home/nafi/CATO/cato/cato-env/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from hypermapper._cli import _plot_optimization_results_cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(_plot_optimization_results_cli())
