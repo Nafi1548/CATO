@@ -1401,3 +1401,195 @@ Features: Index(['d_bytes_mean', 'd_bytes_std', 'd_bytes_sum', 'd_iat_mean', 'd_
        's_ttl_sum', 's_winsize_mean', 's_winsize_med', 's_winsize_min',
        's_winsize_std', 's_winsize_sum', 'syn_ack', 'syn_cnt', 'tcp_rtt'],
       dtype='object')
+{'application_name': 'cato', 'output_data_file': '/home/nafi/CATO/cato/results/hmp_144547533640083439615/./output_dir/max3_init5_iter15_damp0.2_2025-06-16-11-41-24/post_output_samples.csv', 'optimization_objectives': ['neg_f1_score', 'compute_cost'], 'design_of_experiment': {'doe_type': 'random sampling', 'number_of_samples': 5}, 'optimization_iterations': 15, 'input_parameters': {'s_winsize_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.09999999999999998, 0.9], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_winsize_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.10960259208488654, 0.8903974079151135], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_winsize_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.12283942715640117, 0.8771605728435988], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.1241601214884539, 0.8758398785115461], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.12494829213099357, 0.8750517078690064], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.13617529777797455, 0.8638247022220255], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.14813293717985065, 0.8518670628201493], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.1549631464702036, 0.8450368535297964], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.15463969244515352, 0.8453603075548465], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.15610130548566403, 0.843898694514336], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.159761829092819, 0.840238170907181], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.17041945398732994, 0.8295805460126701], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.17050339362928268, 0.8294966063707173], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.17667154399543827, 0.8233284560045617], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.18993797129119472, 0.8100620287088053], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_winsize_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.19065624273128845, 0.8093437572687115], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_load': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.21308466301116102, 0.786915336988839], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2088674274761042, 0.7911325725238958], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.22971086248589823, 0.7702891375141018], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.23216423144087062, 0.7678357685591294], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.23842566361093376, 0.7615743363890662], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2393194487984155, 0.7606805512015845], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'dur': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.23902223230613584, 0.7609777676938642], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2420171234926487, 0.7579828765073513], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.24006975143460874, 0.7599302485653913], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.23928642799111266, 0.7607135720088873], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2456305546229457, 0.7543694453770543], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_load': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.24560225418909343, 0.7543977458109066], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2483490510343298, 0.7516509489656702], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2532990864267799, 0.7467009135732201], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2562912221423096, 0.7437087778576904], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_winsize_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2541830212048527, 0.7458169787951473], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2601963883534958, 0.7398036116465042], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'ack_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.26119772740120706, 0.7388022725987929], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'syn_ack': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.269487065707236, 0.730512934292764], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'tcp_rtt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.2809423561764872, 0.7190576438235128], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.3161124312912935, 0.6838875687087065], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.32123061415727006, 0.6787693858427299], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_winsize_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.32551677298818826, 0.6744832270118117], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_port': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.33334170213478487, 0.6666582978652151], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.33896994652482293, 0.6610300534751771], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_ttl_sum': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.3465160988966616, 0.6534839011033384], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_iat_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.34907604391810665, 0.6509239560818934], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_port': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.35287399442165257, 0.6471260055783474], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_pkt_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.3554366447922199, 0.6445633552077801], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.3707428303453104, 0.6292571696546896], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_pkt_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.374646140860147, 0.625353859139853], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'psh_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.3922723396681158, 0.6077276603318842], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_winsize_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.39796303932348487, 0.6020369606765151], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'ack_dat': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.5423970804639522, 0.4576029195360478], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_iat_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.5596450175017633, 0.4403549824982367], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.5857720958097804, 0.4142279041902196], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_bytes_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.7932208422108035, 0.20677915778919653], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_bytes_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.7873262204776272, 0.2126737795223728], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_ttl_min': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8308694811553653, 0.1691305188446347], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_ttl_max': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8287732054993675, 0.17122679450063244], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_ttl_med': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8303843678946186, 0.1696156321053815], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'fin_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8397289834075521, 0.16027101659244786], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 's_ttl_mean': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8311629952878802, 0.1688370047121198], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'd_ttl_std': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8729616578102385, 0.12703834218976148], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'syn_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8655612991683077, 0.13443870083169226], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'rst_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.8874222747039715, 0.11257772529602847], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'proto': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.894583919541327, 0.10541608045867304], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'ece_cnt': {'parameter_type': 'categorical', 'values': ['false', 'true'], 'prior': [0.9, 0.1], 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}, 'pkt_depth': {'parameter_type': 'integer', 'values': [1, 3], 'prior': 'decay', 'custom_gaussian_prior_means': False, 'custom_gaussian_prior_stds': False}}, 'log_file': 'hypermapper_logfile.log', 'verbose_logging': False, 'profiling': False, 'noise': True, 'profiling_file': 'profiles/profile.csv', 'append_profiles': False, 'number_of_cpus': 0, 'max_number_of_predictions': 1000000, 'time_budget': -1, 'number_of_repetitions': 1, 'hypermapper_mode': {'mode': 'default'}, 'models': {'model': 'random_forest', 'number_of_trees': 10, 'max_features': 0.5, 'bootstrap': False, 'min_samples_split': 5}, 'output_image': {'output_image_pdf_file': 'output_pareto.pdf', 'image_xlog': False, 'image_ylog': False}, 'feasible_output': {'name': 'Valid', 'true_value': 'True', 'false_value': 'False', 'enable_feasible_predictor': False, 'enable_feasible_predictor_grid_search_on_recall_and_precision': False, 'feasible_predictor_grid_search_validation_file': '/home/lnardi/spatial-lang/results/apps_classification_test_set/BlackScholes.csv'}, 'timestamp': 'Timestamp', 'evaluations_per_optimization_iteration': 1, 'run_directory': '.', 'output_pareto_file': 'output_pareto.csv', 'acquisition_function': 'EI', 'scalarization_method': 'tchebyshev', 'weight_sampling': 'flat', 'bounding_box_limits': [0, 1], 'optimization_method': 'bayesian_optimization', 'local_search_starting_points': 10, 'local_search_random_points': 10000, 'local_search_evaluation_limit': -1, 'scalarization_key': 'scalarization', 'local_search_scalarization_weights': [1], 'print_parameter_importance': False, 'normalize_inputs': False, 'epsilon_greedy_threshold': 0.1, 'prior_method': 'pibo', 'prior_beta': -1, 'prior_floor': 1e-06, 'model_posterior_weight': 10, 'model_good_quantile': 0.05, 'prior_estimation_file': 'samples.csv', 'prior_estimation_quantile': 0.1, 'estimate_multivariate_priors': False, 'resume_optimization': False, 'resume_optimization_data': 'output_samples.csv', 'bandwidth_parameter': 0, 'bandwidth_n_factor': 100, 'prior_limit_estimation_points': 10000, 'posterior_computation_lower_limit': 1e-08, 'custom_gaussian_prior_means': [0], 'custom_gaussian_prior_stds': [-1], 'acquisition_function_optimizer': 'local_search', 'evolution_population_size': 50, 'evolution_generations': 150, 'mutation_rate': 1, 'evolution_crossover': False, 'regularize_evolution': False, 'batch_size': 2, 'print_best': 'auto', 'print_posterior_best': False, 'cma_es_sigma': 0.2, 'cma_es_starting_points': 1, 'cma_es_random_points': 10000}
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Warning: prior optimization does not work with multiple objectives yet, priors will be uniform
+Design of experiment phase, number of new doe samples = 5 .......
+[36m ['ack_cnt', 'd_bytes_max', 'd_bytes_mean', 'd_bytes_min', 'd_bytes_std', 'd_iat_med', 'd_iat_sum', 'd_load', 'd_pkt_cnt', 'd_ttl_med', 'd_ttl_min', 'd_ttl_std', 'd_ttl_sum', 'd_winsize_max', 'd_winsize_mean', 'd_winsize_med', 'd_winsize_min', 'd_winsize_std', 'dur', 'proto', 's_bytes_med', 's_bytes_min', 's_bytes_std', 's_bytes_sum', 's_iat_mean', 's_pkt_cnt', 's_port', 's_ttl_sum', 's_winsize_max', 's_winsize_mean', 's_winsize_std', 's_winsize_sum', 'syn_ack', 'syn_cnt', 'tcp_rtt'] 2 [0m
+[36mConverting raw features[0m
+[33mCollecting /home/nafi/CATO/cato/datasets/pkts_2/features.jsonl[0m
+[36m/home/nafi/CATO/cato/retina/retina-cato/core/src/subscription/features.rs: modified to pkt_depth=2[0m
+[36mSetting config timing output to `./compute_features.csv`[0m
+[36mcargo build --manifest-path=/home/nafi/CATO/cato/retina/retina-cato/Cargo.toml --release --bin log_features --features label,collect,ack_cnt,ack_dat,cwr_cnt,d_bytes_max,d_bytes_mean,d_bytes_med,d_bytes_min,d_bytes_std,d_bytes_sum,d_iat_max,d_iat_mean,d_iat_med,d_iat_min,d_iat_std,d_iat_sum,d_load,d_pkt_cnt,d_port,d_ttl_max,d_ttl_mean,d_ttl_med,d_ttl_min,d_ttl_std,d_ttl_sum,d_winsize_max,d_winsize_mean,d_winsize_med,d_winsize_min,d_winsize_std,d_winsize_sum,dur,ece_cnt,fin_cnt,proto,psh_cnt,rst_cnt,s_bytes_max,s_bytes_mean,s_bytes_med,s_bytes_min,s_bytes_std,s_bytes_sum,s_iat_max,s_iat_mean,s_iat_med,s_iat_min,s_iat_std,s_iat_sum,s_load,s_pkt_cnt,s_port,s_ttl_max,s_ttl_mean,s_ttl_med,s_ttl_min,s_ttl_std,s_ttl_sum,s_winsize_max,s_winsize_mean,s_winsize_med,s_winsize_min,s_winsize_std,s_winsize_sum,syn_ack,syn_cnt,tcp_rtt,urg_cnt[0m
+	>    Compiling retina-core v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/core)
+	>    Compiling retina-filtergen v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/filtergen)
+	>    Compiling log_features v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/examples/log_features)
+	>     Finished `release` profile [optimized] target(s) in 36.30s
+[32m> Running `sudo env LD_LIBRARY_PATH=$LD_LIBRARY_PATH RUST_LOG=info /home/nafi/CATO/cato/retina/retina-cato/target/release/log_features -c /home/nafi/CATO/cato/retina/retina-cato/scripts/tmp_config.toml -o /home/nafi/CATO/cato/datasets/pkts_2/features.jsonl`[0m
+Initializing Retina runtime...
+Processed: 537650 pkts, 84121469 bytes
+CPU time: 180ms
+Done. Logged 7147 connections to "/home/nafi/CATO/cato/datasets/pkts_2/features.jsonl"
+[32mCollected raw dataset at /home/nafi/CATO/cato/datasets/pkts_2/features.jsonl[0m
+Reading /home/nafi/CATO/cato/datasets/pkts_2/features.jsonl...
+Rows: 7147, elapsed: 0.22694635391235352s
+                  s_mac  ... session_id
+0     00:24:e4:11:18:a8  ...   16-09-25
+1     ec:1a:59:83:28:11  ...   16-09-25
+2     ec:1a:59:83:28:11  ...   16-09-25
+3     ec:1a:59:83:28:11  ...   16-09-25
+4     ec:1a:59:83:28:11  ...   16-09-25
+...                 ...  ...        ...
+7142  e0:76:d0:33:bb:85  ...   16-09-25
+7143  e0:76:d0:33:bb:85  ...   16-09-25
+7144  e0:76:d0:33:bb:85  ...   16-09-25
+7145  e0:76:d0:33:bb:85  ...   16-09-25
+7146  e0:76:d0:33:bb:85  ...   16-09-25
+
+[7147 rows x 70 columns]
+[36mPreprocessing dataset[0m
+Number of classes: 15
+Train shape: (2829, 69), Test shape: (708, 69)
+[36mTraining Python DT[0m
+Features: Index(['ack_cnt', 'd_bytes_max', 'd_bytes_mean', 'd_bytes_min', 'd_bytes_std',
+       'd_iat_med', 'd_iat_sum', 'd_load', 'd_pkt_cnt', 'd_ttl_med',
+       'd_ttl_min', 'd_ttl_std', 'd_ttl_sum', 'd_winsize_max',
+       'd_winsize_mean', 'd_winsize_med', 'd_winsize_min', 'd_winsize_std',
+       'dur', 'proto', 's_bytes_med', 's_bytes_min', 's_bytes_std',
+       's_bytes_sum', 's_iat_mean', 's_pkt_cnt', 's_port', 's_ttl_sum',
+       's_winsize_max', 's_winsize_mean', 's_winsize_std', 's_winsize_sum',
+       'syn_ack', 'syn_cnt', 'tcp_rtt'],
+      dtype='object')
+training time: 1.916125774383545s
+[36mTesting Python DT[0m
+[32mRust model results:[0m
+[36mTraining Rust DT[0m
+Loading dataset: /home/nafi/CATO/cato/datasets/pkts_2/train_dataset.csv
+Num samples: 2829
+Num features: 35
+Num classes: 14
+Done loading data, elapsed: 5.411831ms
+Loading dataset: /home/nafi/CATO/cato/datasets/pkts_2/test_dataset.csv
+Num samples: 708
+Num features: 35
+Num classes: 12
+Done loading data, elapsed: 1.477178ms
+Training decision tree classifier with params DecisionTreeClassifierParameters { criterion: Gini, max_depth: Some(20), min_samples_leaf: 1, min_samples_split: 2, seed: Some(0) }
+Done training, elapsed: 37.301635ms
+Mean prediction time: 201.58050847457628
+Rust model predictions saved to "/home/nafi/CATO/cato/datasets/pkts_2/features_41870519241079729639/rust_dt_pred.json"
+Rust model binary saved to "/home/nafi/CATO/cato/datasets/pkts_2/features_41870519241079729639/rust_dt.bin"
+[36mEvaluating Rust DT[0m
+{'accuracy': 0.885593220338983, 'precision': 0.9407787552948843, 'recall': 0.9374698795180723, 'f1': 0.938510936217469, 'indiv_pred_time': 201.58050847457628, 'p99_pred_time': 638.8999999999985}
+[36m/home/nafi/CATO/cato/retina/retina-cato/core/src/subscription/features.rs: no changes[0m
+[36mSetting config timing output to `/home/nafi/CATO/cato/output/syscost/pkts_2/compute_features_41870519241079729639.csv`[0m
+[36mcargo build --manifest-path=/home/nafi/CATO/cato/retina/retina-cato/Cargo.toml --release --bin extract_features --features timing,capture_start,ack_cnt,d_bytes_max,d_bytes_mean,d_bytes_min,d_bytes_std,d_iat_med,d_iat_sum,d_load,d_pkt_cnt,d_ttl_med,d_ttl_min,d_ttl_std,d_ttl_sum,d_winsize_max,d_winsize_mean,d_winsize_med,d_winsize_min,d_winsize_std,dur,proto,s_bytes_med,s_bytes_min,s_bytes_std,s_bytes_sum,s_iat_mean,s_pkt_cnt,s_port,s_ttl_sum,s_winsize_max,s_winsize_mean,s_winsize_std,s_winsize_sum,syn_ack,syn_cnt,tcp_rtt[0m
+	>    Compiling retina-core v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/core)
+	>    Compiling retina-filtergen v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/filtergen)
+	>    Compiling extract_features v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/examples/extract_features)
+	>     Finished `release` profile [optimized] target(s) in 40.65s
+[32m> Running `sudo env LD_LIBRARY_PATH=$LD_LIBRARY_PATH RUST_LOG=info /home/nafi/CATO/cato/retina/retina-cato/target/release/extract_features -c /home/nafi/CATO/cato/retina/retina-cato/scripts/tmp_config.toml -o /home/nafi/CATO/cato/output/syscost/pkts_2/out_features_41870519241079729639.json`[0m
+Initializing Retina runtime...
+Processed: 537650 pkts, 84121469 bytes
+CPU time: 123ms
++------------------+-------+-------+---------+-----+-----+-----+-----+-----+-----+-----+------+------+
+| name             | cnt   | rec   | avg     | min | p05 | p25 | p50 | p75 | p95 | p99 | p999 | max  |
++------------------+-------+-------+---------+-----+-----+-----+-----+-----+-----+-----+------+------+
+| update           | 14278 | 14278 | 95.103  | 50  | 80  | 80  | 90  | 100 | 120 | 170 | 390  | 5531 |
+| extract_features | 7147  | 7147  | 54.795  | 40  | 50  | 50  | 50  | 50  | 80  | 130 | 390  | 680  |
+| compute_ns       | 7147  | 7147  | 178.351 | 80  | 160 | 170 | 170 | 180 | 230 | 330 | 680  | 5603 |
++------------------+-------+-------+---------+-----+-----+-----+-----+-----+-----+-----+------+------+
+Done. Extract features from 7147 connections
+[32mMeasured ack_cnt,d_bytes_max,d_bytes_mean,d_bytes_min,d_bytes_std,d_iat_med,d_iat_sum,d_load,d_pkt_cnt,d_ttl_med,d_ttl_min,d_ttl_std,d_ttl_sum,d_winsize_max,d_winsize_mean,d_winsize_med,d_winsize_min,d_winsize_std,dur,proto,s_bytes_med,s_bytes_min,s_bytes_std,s_bytes_sum,s_iat_mean,s_pkt_cnt,s_port,s_ttl_sum,s_winsize_max,s_winsize_mean,s_winsize_std,s_winsize_sum,syn_ack,syn_cnt,tcp_rtt (41870519241079729639) at /home/nafi/CATO/cato/output/syscost/pkts_2[0m
+Measure cost duration: 42.29001832008362s
+[36m ['ack_cnt', 'ack_dat', 'd_bytes_max', 'd_bytes_mean', 'd_bytes_med', 'd_bytes_std', 'd_bytes_sum', 'd_iat_mean', 'd_iat_sum', 'd_load', 'd_ttl_max', 'd_ttl_med', 'd_ttl_sum', 'd_winsize_mean', 'd_winsize_med', 'd_winsize_std', 'd_winsize_sum', 'rst_cnt', 's_bytes_max', 's_bytes_mean', 's_bytes_std', 's_bytes_sum', 's_iat_mean', 's_iat_med', 's_iat_std', 's_iat_sum', 's_load', 's_pkt_cnt', 's_port', 's_ttl_sum', 's_winsize_max', 's_winsize_mean', 's_winsize_med', 's_winsize_min', 's_winsize_std', 's_winsize_sum', 'syn_ack'] 2 [0m
+Train shape: (2829, 69), Test shape: (708, 69)
+[36mTraining Python DT[0m
+Features: Index(['ack_cnt', 'ack_dat', 'd_bytes_max', 'd_bytes_mean', 'd_bytes_med',
+       'd_bytes_std', 'd_bytes_sum', 'd_iat_mean', 'd_iat_sum', 'd_load',
+       'd_ttl_max', 'd_ttl_med', 'd_ttl_sum', 'd_winsize_mean',
+       'd_winsize_med', 'd_winsize_std', 'd_winsize_sum', 'rst_cnt',
+       's_bytes_max', 's_bytes_mean', 's_bytes_std', 's_bytes_sum',
+       's_iat_mean', 's_iat_med', 's_iat_std', 's_iat_sum', 's_load',
+       's_pkt_cnt', 's_port', 's_ttl_sum', 's_winsize_max', 's_winsize_mean',
+       's_winsize_med', 's_winsize_min', 's_winsize_std', 's_winsize_sum',
+       'syn_ack'],
+      dtype='object')
+training time: 0.4517858028411865s
+[36mTesting Python DT[0m
+[32mRust model results:[0m
+[36mTraining Rust DT[0m
+Loading dataset: /home/nafi/CATO/cato/datasets/pkts_2/train_dataset.csv
+Num samples: 2829
+Num features: 37
+Num classes: 14
+Done loading data, elapsed: 5.677049ms
+Loading dataset: /home/nafi/CATO/cato/datasets/pkts_2/test_dataset.csv
+Num samples: 708
+Num features: 37
+Num classes: 12
+Done loading data, elapsed: 1.556702ms
+Training decision tree classifier with params DecisionTreeClassifierParameters { criterion: Gini, max_depth: Some(15), min_samples_leaf: 1, min_samples_split: 2, seed: Some(0) }
+Done training, elapsed: 32.59174ms
+Mean prediction time: 179.50423728813558
+Rust model predictions saved to "/home/nafi/CATO/cato/datasets/pkts_2/features_23149059513589037940/rust_dt_pred.json"
+Rust model binary saved to "/home/nafi/CATO/cato/datasets/pkts_2/features_23149059513589037940/rust_dt.bin"
+[36mEvaluating Rust DT[0m
+{'accuracy': 0.8926553672316384, 'precision': 0.9446449826631476, 'recall': 0.9383785140562249, 'f1': 0.9398949251061927, 'indiv_pred_time': 179.50423728813558, 'p99_pred_time': 459.52999999999895}
+[36m/home/nafi/CATO/cato/retina/retina-cato/core/src/subscription/features.rs: no changes[0m
+[36mSetting config timing output to `/home/nafi/CATO/cato/output/syscost/pkts_2/compute_features_23149059513589037940.csv`[0m
+[36mcargo build --manifest-path=/home/nafi/CATO/cato/retina/retina-cato/Cargo.toml --release --bin extract_features --features timing,capture_start,ack_cnt,ack_dat,d_bytes_max,d_bytes_mean,d_bytes_med,d_bytes_std,d_bytes_sum,d_iat_mean,d_iat_sum,d_load,d_ttl_max,d_ttl_med,d_ttl_sum,d_winsize_mean,d_winsize_med,d_winsize_std,d_winsize_sum,rst_cnt,s_bytes_max,s_bytes_mean,s_bytes_std,s_bytes_sum,s_iat_mean,s_iat_med,s_iat_std,s_iat_sum,s_load,s_pkt_cnt,s_port,s_ttl_sum,s_winsize_max,s_winsize_mean,s_winsize_med,s_winsize_min,s_winsize_std,s_winsize_sum,syn_ack[0m
+	>    Compiling retina-core v0.1.0 (/home/nafi/CATO/cato/retina/retina-cato/core)

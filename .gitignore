@@ -4,4 +4,5 @@ cato-env/
 __pycache__/
 output/
 results/
-datasets/
+# datasets/
+*.pcap
